@@ -48,7 +48,12 @@
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
-    background: linear-gradient(to bottom, #181818, transparent, transparent);
+    background: linear-gradient(
+      to bottom,
+      rgb(0, 0, 0, 0.4),
+      transparent,
+      transparent
+    );
   }
   .banner__info > h1 {
     font-weight: 700 !important;
@@ -61,4 +66,17 @@
     font-weight: 600;
     margin: auto;
   }
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff385c !important;
+  border-radius: 0 !important;
 }
