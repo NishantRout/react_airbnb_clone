@@ -15,11 +15,13 @@ function Header() {
         </div>
       </Link>
 
-      <img
-        className="header__iconMob"
-        src="https://img.icons8.com/color/2x/airbnb.png"
-        alt="airbnb-logo"
-      />
+      <Link to='/'>
+        <img
+          className="header__iconMob"
+          src="https://img.icons8.com/color/2x/airbnb.png"
+          alt="airbnb-logo"
+        />
+      </Link>
 
       <div className="header__center">
         <input type="text" placeholder="Start your search" />
