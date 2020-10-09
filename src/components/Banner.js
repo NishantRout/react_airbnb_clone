@@ -1,9 +1,11 @@
 import { Button } from "@material-ui/core";
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./css/Banner.css";
 import Search from "./Search";
 
 function Banner() {
+  const history = useHistory();
   const [showSearch, setShowSearch] = useState(false);
 
   return (
@@ -24,7 +26,7 @@ function Banner() {
           Settle in somewhere new. Discover nearby stays to live, work, or just
           relax.
         </h5>
-        <Button>Explore nearby</Button>
+        <Button onClick={() => history.push('/search')}>Explore nearby</Button>
       </div>
     </div>
   );

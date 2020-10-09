@@ -23,7 +23,7 @@
   text-transform: inherit;
   margin-top: 20px;
   padding: 5px 10px 5px 10px;
-  font-weight: 200;
+  font-weight: 500;
 }
 .banner__info > button:hover {
   background-color: rgb(224, 224, 224);
