@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import SearchPage from "./components/SearchPage";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import BottomNavBar from "./components/BottomNavBar";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           </Route>
         </Switch>
         <Footer />
+        <BottomNavBar />
       </Router>
     </div>
   );

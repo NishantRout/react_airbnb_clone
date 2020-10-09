@@ -1,0 +1,54 @@
+.bottomNavBar {
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+    background-color: white;
+    border-top: 0.5px solid lightgray;
+}
+
+@media screen and (min-width: 990px) {
+    .bottomNavBar {
+        display: none;
+    }
+}
+
+.bottomNavBar__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.bottomNavBar__iconButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottomNavBar__iconButton > button {
+    padding: 10px;
+    border-radius: 2000px;
+}
+
+.bottomNavBar__iconButton > h6 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.bottomNavBar__iconActive {
+    color: #ff385c !important;
+    font-size: 32px !important;
+}
+
+.bottomNavBar__icon {
+    color: rgb(172, 172, 172) !important;
+    font-size: 30px !important;
+}
+
+.bottomNavBar__icon:hover {
+    color: #ff385c !important;
+    cursor: pointer;
+}
