@@ -57,18 +57,18 @@
   .search {
     position: absolute;
     top: 35px;
-    left: 3%;
-    right: 3%;
+    left: 7%;
+    right: 4%;
     width: 100%;
     max-width: 100px;
   }
   .search > h4 {
     width: 322px;
-    top: 348px;
+    top: 347px;
   }
   .search > input {
     width: 312px;
-    top: 392px;
+    top: 391px;
   }
   .search > button {
     width: 352px;
